@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 #--------------#
 
 #  import data, check sets
-data = pd.read_csv(r"C:\Users\Byon8\PycharmProjects\Stroke\stroke_train.csv")
+data = pd.read_csv(r"stroke_data.csv")
 
 values = {'smoking_status': "Unknown"}
 data = data.fillna(value=values)
